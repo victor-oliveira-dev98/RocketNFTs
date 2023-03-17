@@ -1,0 +1,325 @@
+/*================== General ======================*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+
+
+    overflow: overlay;
+
+    background-color: rgb(19, 19, 19);
+}
+
+ul{
+    list-style: none;
+}
+
+span{
+    color: #FF5B50;
+}
+
+h2{
+    color: white;
+}
+
+.title {
+    margin: 150px 0px 158px 87px;
+}
+
+footer {
+    background-color: #252525;
+    margin-top: 156px;
+}
+
+
+
+/*====================== NavBar =================*/
+.background{
+    position: absolute;
+    z-index: -1;
+    width: 1439.56px;
+    height: 1125px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 82px;
+}
+
+.navbar h2{
+    width: 265px;
+    height: 43px;
+    color: #FFFFFF;
+}
+
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 60px;
+    
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navbar button {
+    width: 230px;
+    height: 50px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* ================================== Banner ======================== */
+.container {
+    display: flex;
+    color: white;
+    padding: 23px 82px;
+    gap: 40px;
+    margin-top: 55px;
+
+}
+
+#firstContainer{
+    width: 440px;
+    height: 88px;
+    
+}
+
+#containerArtists {
+    display: flex;
+    width: 369px;
+    height: 87px;
+    align-items: end;
+}
+
+#containerArtists p {
+    font-size: 18px;
+    margin: 4px;
+
+}
+
+#secoundContainer {
+    width: 596px;
+    height: 246px;
+    display: flex;
+    align-items: center;
+
+}
+
+#secoundContainer h2 {
+    font-style: normal;
+
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 61px;
+}
+
+
+/*========================================== NFTs ====================================*/
+.containerNFTs{
+    margin: 100px 82px 0px;
+}
+
+.containerNFTs div{
+    gap: 16.16px;
+    width: 1277px;
+    height: 197.98px;
+    margin-bottom: 60.44px;
+}
+
+.containerNFTs div img{
+
+    width: 307.13px;
+    height: 197.98px;
+}
+
+/*=========================================== Banner ======================================*/
+.containerBanner {
+    width: 1440.01px;
+    height: 660.01px;
+    display: flex;
+
+
+}
+
+#bannerInformation {
+    margin-left: 87px;
+    margin-right: 67px;
+}
+
+#bannerInformation div{
+    margin-bottom: 70px;
+}
+
+#bannerInformation div h3{
+    margin-bottom: 0px;
+    color: white;
+}
+
+#bannerInformation div p{
+    margin-top: 8px;
+    color: #5A5757;
+}
+
+#bannerSells {
+    display: flex;
+    color: white;
+    
+    
+}
+
+#bannerSells div{
+    width: 600px;
+    height: 305px;
+}
+
+#bannerSells div p{
+    width: 435px;
+    height: 114px;
+    margin-bottom: 63px;
+}
+
+#bannerSells div a{
+    text-decoration: none;
+    color: white;
+}
+
+.bannerImg {
+    position: absolute;
+}
+
+/*===================================Top Week =================================*/
+
+.containertTop {
+    display: flex;
+    margin: 158px  87px 151px 87px;
+    justify-content: space-between;
+}
+
+#containerPrize {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containertTop div h3{
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containertTop div p{
+    color: #5A5757;
+}
+
+/*===================================Top Artists =================================*/
+
+.titleTopArtists {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.containerTopArtists{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 120px 87px 63px 87px;
+}
+
+.containerTopArtists div{
+    display: flex;
+    background-color: #252525;
+    width: 350px;
+    height: 150px;
+
+}
+
+.containerTopArtists div img{
+    width: 100px;
+    height: 100px;
+    margin: 7%;
+}
+
+.containerTopArtists div wrapper{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.containerTopArtists div p{
+    width: 114px;
+    height: 25px;
+
+    margin: 5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.containerLink {
+    display: flex;
+    justify-content: center;
+
+}
+
+.linkTopArtists {
+    margin-right: 23px;
+    color: white;
+    text-decoration: none;
+
+}
+
+/*=================================== Footer =================================*/
+
+.footerFirstContainer {
+    display: flex;
+    
+
+}
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 102px 84px 77px 84px;
+    
+    color: white;
+}
+
+.footerWrapper button {
+    background-color: #FF5B50;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+}
+
+.footerWrapper div img {
+    width: 23px;
+    height: 23px;
+}
